@@ -1,0 +1,141 @@
+body {
+  image-rendering: pixelated;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3",Meiryo,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  vertical-align: middle;
+  margin-bottom: 5%;
+}
+
+.top_left_logo{
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  font-size: 2.2em;
+  letter-spacing: 0.3em;
+  padding-top: 7px;
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 768px) {
+     .top_left_logo{
+        font-size: 1.8em;
+        letter-spacing: 0.1em;
+        padding-top: 4px;
+        padding-left: 0.4em;
+    }
+}
+
+.top_right_social_links{
+  position: absolute;
+  right: 1.5em;
+  top: 1em;
+  fill: #42AFE3;
+}
+
+a{
+  color:#303030;
+  text-decoration: none;
+}
+
+a:hover{
+  color: gray;
+  text-decoration: underline;
+}
+
+.social_svg:hover {
+  fill: gray;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+main{
+  width: 90%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  flex: 1;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: my-azo-sans-web,YuGothic,sans-serif;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    margin-bottom: 5em;
+}
+
+h2{
+    font-family: my-azo-sans-web,YuGothic,sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+p.date {
+    font-size: 0.95em;
+    margin-top: 0.5em;
+    color: #75786D;
+}
+
+footer{
+  margin-top: 200px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  vertical-align: middle;
+  position: relative;
+
+  text-align: center;
+  padding-top: 70px;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+}
+
+.desc_headline{
+  font-size: 20px;
+  color: #171727;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.desc_p{
+  font-size: 16px;
+  font-weight: 100;
+  font-family: my-azo-sans-web,YuGothic,sans-serif;
+  line-height: 1.5em;
+}
+
+.footer_links{
+  padding-bottom: 0.6em;
+}
+
+#copyright{
+  padding-top: 120px;
+  padding-bottom: 70px;
+  font-size: 18px;
+  color: #000;
+  font-family: my-azo-sans-web,YuGothic,sans-serif;
+  font-kerning: none;
+  font-size: 0.8em;
+}
+
