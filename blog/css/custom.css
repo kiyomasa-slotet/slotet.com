@@ -24,6 +24,11 @@ figure{
     text-align: center;
 }
 
+img {
+    text-align: center;
+}
+/* wtf ? */
+
 a#back_to_blog_top {
     text-decoration: underline;
     color: #847BB9;
