@@ -21,6 +21,23 @@ header{
   background-color: rgba(255, 255, 255, 0);
   vertical-align: middle;
   margin-bottom: 40%;
+  float: left;
+  padding-top: 1em;
+}
+
+header .logo{
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  font-size: 2.8em;
+  letter-spacing: 0.3em;
+  padding-top: 7px;
+  padding-left: 1em;
+}
+
+header .nav{
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.09em;
+  padding-left: 2em;
 }
 
 .top_left_logo{
@@ -38,13 +55,6 @@ header{
         padding-top: 4px;
         padding-left: 0.4em;
     }
-}
-
-.top_right_social_links{
-  position: absolute;
-  right: 1.5em;
-  top: 1em;
-  fill: #42AFE3;
 }
 
 a{
@@ -80,15 +90,40 @@ main{
 }
 
 footer{
-  margin-top: 200px;
+  margin-top: 100px;
   width: 100%;
   background-color: rgba(255, 255, 255, 1);
   vertical-align: middle;
   position: relative;
 
   text-align: center;
-  padding-top: 70px;
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  padding-top: 30px;
+  font-family: my-azo-sans-web,YuGothic,sans-serif;
+}
+
+#footer_content{
+  width: 60%;
+  padding-left: 20%;
+}
+
+.footer_info{
+  padding-top: 4em;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 33%;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.98em;
+  letter-spacing: 0.02em;
+}
+
+.footer_info_column{
+  width: 50%;
+}
+
+.material-icons {
+  font-size: 30px;
 }
 
 .desc_headline{
@@ -98,6 +133,7 @@ footer{
   font-weight: bold;
   padding-top: 2em;
   margin-bottom: 1em;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
 }
 
 .desc_p{
@@ -113,8 +149,12 @@ footer{
   padding-bottom: 0.6em;
 }
 
+.social_links{
+  padding-top: 3em;
+}
+
 #copyright{
-  padding-top: 120px;
+  padding-top: 1.3em;
   padding-bottom: 10px;
   font-size: 18px;
   color: #000;
