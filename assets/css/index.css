@@ -48,15 +48,6 @@ header .nav{
   padding-left: 1em;
 }
 
-@media screen and (max-width: 768px) {
-     .top_left_logo{
-        font-size: 1.8em;
-        letter-spacing: 0.1em;
-        padding-top: 4px;
-        padding-left: 0.4em;
-    }
-}
-
 a{
   color:#303030;
   text-decoration: none;
@@ -163,3 +154,29 @@ footer{
   font-size: 0.8em;
 }
 
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-top: 0;
+    }
+    header .logo{
+      letter-spacing: 0.3em;
+      padding-left: 0.2em;
+    }
+    header .nav{
+      display: block;
+      padding-left: 0.7em;
+      font-size: 1.3em;
+    }
+    #footer_content{
+      width: 90%;
+      padding-left: 5%;
+    }
+    .footer_info{
+      display: block;
+    }
+    .footer_info_column{
+      width: 100%;
+      text-align: center;
+    }
+}
