@@ -10,6 +10,7 @@ body {
   font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3",Meiryo,sans-serif;
   -webkit-font-smoothing:antialiased;
   text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
 }
 
 header{
@@ -21,7 +22,7 @@ header{
 }
 
 .top_left_logo{
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
   font-size: 2.2em;
   letter-spacing: 0.3em;
   padding-top: 7px;
