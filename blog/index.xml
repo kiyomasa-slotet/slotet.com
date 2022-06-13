@@ -6,10 +6,10 @@
     <description>Recent content on SLOTET/DEVLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2021 SLOTET</copyright>
+    <copyright>&amp;copy; 2022 SLOTET</copyright>
     <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://slotet.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ludum Dare 48: My first challenge to a game jam.</title>
+      <title>SSS#3 - Ludum Dare 48: My first challenge to a game jam.</title>
       <link>http://slotet.com/blog/posts/sss_3/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
@@ -17,6 +17,17 @@
       <description>On April 24 - 27, 2021, Ludum Dare 48 - An event to create a game in 72 hours - was held.
 I was invited by my friend Thomas Olsson to participate in my first game jam as an pixel artist. I would like to share my overall impressions.
 I think it would be helpful for artists who are interested in game jam but have never participated in it before.</description>
+    </item>
+    
+    <item>
+      <title>SSS #2 - Considering about genre, and some sketches</title>
+      <link>http://slotet.com/blog/posts/sss_2/</link>
+      <pubDate>Sun, 28 Mar 2021 08:07:43 +0900</pubDate>
+      
+      <guid>http://slotet.com/blog/posts/sss_2/</guid>
+      <description>Hey guys. This is my second update.
+I really wanted to do a weekly update, but I couldn&amp;rsquo;t do it last week. It seemed to me that there was nothing worth showing to everyone. A friend said to me, &amp;ldquo;You should update your development blog every week. And see if it&amp;rsquo;s better to look good or to be forgotten by everyone.
+Maybe it&amp;rsquo;s worth it to write that development isn&amp;rsquo;t going well.</description>
     </item>
     
     <item>
@@ -29,7 +40,7 @@ I think it would be helpful for artists who are interested in game jam but have 
 Thank you for your interest in my work and for coming here.
 On March 2, 2021, I posted a pixel art on twitter.
 WIP #gamedev #Indiegamedev pic.twitter.com/BcddyRq7Xr
-&amp;mdash; SLOTET (@slotet_pixel) March 2, 2021  This is the concept art for my game, which I drew little by little in between contract jobs. As many of you may know, this pixel art was seen by quite a few people. This is the first time in my life that I&amp;rsquo;ve done this, so I was very surprised, and more than anything, I was happy to see the warm response from you guys.</description>
+&amp;mdash; SLOTET (@SlotetStudios) March 2, 2021  This is the concept art for my game, which I drew little by little in between contract jobs. As many of you may know, this pixel art was seen by quite a few people. This is the first time in my life that I&amp;rsquo;ve done this, so I was very surprised, and more than anything, I was happy to see the warm response from you guys.</description>
     </item>
     
   </channel>
