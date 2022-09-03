@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>SLOTET.COM</title>
+    <title>SLOTET</title>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6D2Z5K766Z"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -13,78 +13,134 @@
     <link rel="apple-touch-icon" type="image/png" href="/assets/favicon/apple-touch-icon-180x180.png">
     <link rel="icon" type="image/png" href="/assets/favicon/icon-192x192.png">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&display=swap" rel="stylesheet">
+    <script>
+    function secretaddress() {var ma = String.fromCharCode(117-18,81+30,138-28,86+30,124-27,97+2,137-21,42+22,146-31,77+31,115-4,105+11,116-15,112+4,70-24,70+29,140-29,85+24);var mt = String.fromCharCode(117-8,92+5,127-22,55+53,149-33,101+10,92-34); document.write('<a href="'+ mt + ma + '">' + ma + '</a>');}
+    </script>
+
     <style>
       body {
-      	display: flex;
-      	justify-content: center;
-      	align-items: center;
-      	min-height: 90vh;
-      	line-height: 1.5em;
         font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3",Meiryo,sans-serif;
         -webkit-font-smoothing:antialiased;
         text-rendering: optimizeLegibility;
         margin: 0;
+        background-color: #d9d8d2;
       }
 
       #page_wrapper {
         width: 100%;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
       }
 
       #top_section {
+        height: calc(100vh * 0.7);
         width: 100%;
-      	height: 100vh;
-        margin: 0;
-      	background: rgba(0,0,0,0.6);
-        background-image: url("assets/img/bgc.jpg");
+        background: url('assets/img/index/2.png');
         background-size: cover;
-      	color: #fff;
-      	text-align: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
       }
 
-      .center {
-        margin-left: auto;
-        margin-right: auto;        
-        font-size: px;
+      #logo {
+        color: white;
+        font-size: 2em;
+        font-family: Arial Black;
+        letter-spacing: 0.5em;
       }
 
-      .logo {
-      font-family: Arial Black,Arial Bold,Gadget,sans-serif;
-      font-size: 3.4em;
-      letter-spacing: 0.3em;
-      padding-top: 50vh;
-      padding-left: 1em;
-    }
+      .page_sections {
+        background: transparent;
+        padding: 0;
+        margin: 0;
+        width: auto;
+        text-align: center;
+        padding-top: 2em;
+      }
 
-    #link_devlog {
-      margin-top: 4vh;
-      font-size: 1em;
-    }
+      p {
+        font-family: 'Anek Telugu', sans-serif;
+      }
 
-    a:link {
-      color: #fff;
-    }
-    a:visited {
-      color: #fff;
-    }
-    a:hover {
-      color: #fff;
-    }
-    a:active {
-      color: #fff;
-    }
+      .section_title {
+        font-size: 26px;
+      }
 
+      p.description {
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 0.1em;
+      }
 
+      a {
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 0.1em;
+        color: #000;
+        text-decoration: none;
+        -webkit-transition: all 0.15s ease-in-out 0.01s;
+        transition: all 0.15s ease-in-out 0.01s;
+      }
+
+      a:hover{
+        color: #9dc3df
+      }
+
+      #page_footer {
+        margin-top: 10vh;
+      }
 
     </style>
   </head>
   <body>
     <div id="page_wrapper">
+
+      <div id='top_section' class="">
+        <div id='logo'>&nbsp;SLOTET</div>
+      </div>
+
+      <div id='section_top' class="page_sections">
+        <p class='section_title'>ABOUT</p>
+        <p class='description'>Slotet is a small indipendent game studio based in Tokyo, Japan.</p>
+      </div>
+
+      <div id='section_content' class="page_sections">
+        <p class='section_title'>PROJECTS</p>
+        <p>
+          <iframe frameborder="0" src="https://itch.io/embed/1683880" width="552" height="167"><a href="https://slotet.itch.io/the-hollow-men">The Hollow Men by SLOTET</a></iframe>
+        </p>
+      </div>
+
+      <div id='section_content' class="page_sections">
+        <p class='section_title'>DEVELOPMENT</p>
+        <a href='https://slotet.com/blog/'>https://slotet.com/blog/</a>
+      </div>
+
+      <div id='section_content' class="page_sections">
+        <p class='section_title'>CONTACT</p>
+        <script type="text/javascript">secretaddress();</script>
+      </div>
+
+      <div id='page_footer' class="page_sections">
+        <p class='description'>&copy; 2022 Copyright Slotet. All Rights Reserved.</p>
+      </div>
+
+      <!--
       <div id="top_section">
         <div class="logo">
           SLOTET
         </div>
         <p id="link_devlog"><a href="https://slotet.com/blog/">DEVLOG</p>
       </div>
+    -->
     </div>
   </body>
