@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 SLOTET</copyright>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://slotet.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://slotet.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSS#4 - Finally I made a piece of shit and the development log of it.</title>
+      <link>http://slotet.com/blog/posts/sss_4/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://slotet.com/blog/posts/sss_4/</guid>
+      <description>Hey guys. I finally published a small game the past few days.
+The Hollo Men on itch.io
+As those of you who have played it will know (if you haven&amp;rsquo;t, you don&amp;rsquo;t need to play it, it&amp;rsquo;s a waste of time), this is an undeniably shitty game. I spent about a month on it, and I produced crap.
+But I don&amp;rsquo;t regret it too much, because the requirements I set when I started this project had been met.</description>
+    </item>
+    
     <item>
       <title>SSS#3 - Ludum Dare 48: My first challenge to a game jam.</title>
       <link>http://slotet.com/blog/posts/sss_3/</link>
