@@ -16,6 +16,10 @@ hr {
     padding: 10px 20px;
 }
 
+.content p {
+  text-align: left;
+}
+
 #footer {
     padding: 5em 0 3em 0;
 }

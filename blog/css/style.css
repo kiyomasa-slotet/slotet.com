@@ -1368,7 +1368,9 @@ a.box:active {
 }
 
 .content p {
+  /*
   text-align: justify;
+  */
 }
 
 .content blockquote:not(:last-child),
