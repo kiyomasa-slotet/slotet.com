@@ -62,7 +62,7 @@
         background: transparent;
         padding: 0;
         margin: 0;
-        width: auto;
+        width: 100%;
         text-align: center;
         padding-top: 2em;
       }
@@ -99,6 +99,26 @@
         margin-top: 10vh;
       }
 
+      .iframe_wrapper {
+        width: 100%;
+      }
+
+      .iframe_wrapper iframe {
+        width: 33%;
+      }
+
+      @media screen and (max-width: 959px) {
+        .iframe_wrapper iframe {
+          width: 90%;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .iframe_wrapper iframe {
+          width: 90%;
+        }
+      }
+
     </style>
   </head>
   <body>
@@ -115,9 +135,9 @@
 
       <div id='section_content' class="page_sections">
         <p class='section_title'>PROJECTS</p>
-        <p>
-          <iframe frameborder="0" src="https://itch.io/embed/1683880" width="552" height="167"><a href="https://slotet.itch.io/the-hollow-men">The Hollow Men by SLOTET</a></iframe>
-        </p>
+        <div class='iframe_wrapper'>
+          <iframe frameborder="0" src="https://itch.io/embed/1683880"><a href="https://slotet.itch.io/the-hollow-men">The Hollow Men by SLOTET</a></iframe>
+        </div>
       </div>
 
       <div id='section_content' class="page_sections">
