@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 Copyright Slotet. All Rights Reserved.</copyright>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://slotet.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 10:58:16 +0900</lastBuildDate><atom:link href="http://slotet.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSS#7 - Prepare for next journey_01</title>
+      <link>http://slotet.com/blog/posts/sss_7/</link>
+      <pubDate>Mon, 26 Sep 2022 10:58:16 +0900</pubDate>
+      
+      <guid>http://slotet.com/blog/posts/sss_7/</guid>
+      <description>I have decided to update this devlog every Monday from now on. As you know, my progress is very slow, so I don&amp;rsquo;t think I&amp;rsquo;ll be able to write much, but I thought it&amp;rsquo;s important to update even the most trivial things.
+There is something I forgot to upload in my last post. A video of a camera test with defold-orthographic. I am considering using it in the future because it is easy to control the zoom from the script, although some adjustments are necessary.</description>
+    </item>
+    
     <item>
       <title>SSS#6 - City and Nature</title>
       <link>http://slotet.com/blog/posts/sss_6/</link>
@@ -15,7 +25,7 @@
       
       <guid>http://slotet.com/blog/posts/sss_6/</guid>
       <description>Hey everyone. I&amp;rsquo;d like to report on the progress I&amp;rsquo;ve made over the past week or so. I am still sketching over and over.
-At first I had in mind the story of a man living in a city. Something like this.(or please read previous post)
+At first I had in mind the story of a man living in a city. Something like this(or please read previous post).
  However, I gradually realized that as a painter I did not enjoy painting cities.
    (lol, example of trying to emphasize a distinctive style and losing myself.</description>
     </item>
