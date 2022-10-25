@@ -6671,3 +6671,11 @@ div.subtitle.tags {
 .highlight pre {
   margin: 0;
 }
+
+.title.is-3 code, .title.is-4 {
+    font-family: "Arial Black", Gadget, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding-top: 7px;
+}
