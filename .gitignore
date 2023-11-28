@@ -2,3 +2,5 @@
 *.sh
 *.txt
 .DS_Store
+.json
+node_modules/
