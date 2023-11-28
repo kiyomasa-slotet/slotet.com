@@ -2,5 +2,5 @@
 *.sh
 *.txt
 .DS_Store
-.json
+*.json
 node_modules/
