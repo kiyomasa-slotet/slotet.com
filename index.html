@@ -9,128 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
     <script src="https://kit.fontawesome.com/02d43692e8.js" crossorigin="anonymous"></script>
     <script>
     function secretaddress() {var ma = String.fromCharCode(117-18,81+30,138-28,86+30,124-27,97+2,137-21,42+22,146-31,77+31,115-4,105+11,116-15,112+4,70-24,70+29,140-29,85+24);var mt = String.fromCharCode(117-8,92+5,127-22,55+53,149-33,101+10,92-34); document.write('<a href="'+ mt + ma + '">' + ma + '</a>');}
     </script>
     <script data-goatcounter="https://slotet.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    <style>
-      body {
-        font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3",Meiryo,sans-serif;
-        -webkit-font-smoothing:antialiased;
-        text-rendering: optimizeLegibility;
-        margin: 0;
-        background-color: #d9d8d2;
-      }
-
-      #page_wrapper {
-        width: 100%;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-
-      #top_section {
-        height: calc(100vh * 0.7);
-        width: 100%;
-        background: url('assets/img/index/2.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 8vh;
-      }
-
-      #logo {
-        color: white;
-        font-size: 2em;
-        letter-spacing: 0.5em;
-        font-family: "Arial Black", Gadget, Arial, sans-serif;
-        font-weight: 900;
-      }
-
-      .page_sections {
-        background: transparent;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        text-align: center;
-        padding-top: 3em;
-      }
-
-      p {
-        font-family: 'Anek Telugu', sans-serif;
-      }
-
-      .section_title {
-        font-size: 26px;
-      }
-
-      p.description {
-        font-size: 17px;
-        font-weight: 100;
-        letter-spacing: 0.1em;
-      }
-
-      a {
-        font-size: 17px;
-        font-weight: 100;
-        letter-spacing: 0.1em;
-        color: #000;
-        text-decoration: none;
-        -webkit-transition: all 0.15s ease-in-out 0.01s;
-        transition: all 0.15s ease-in-out 0.01s;
-      }
-
-      a:hover{
-        color: #9dc3df
-      }
-
-      #section_social_icons {
-        margin-top: 2vh;
-      }
-
-      #page_footer {
-        margin-top: 0vh;
-      }
-
-      .iframe_wrapper {
-        width: 100%;
-      }
-
-      .iframe_wrapper iframe {
-        width: 33%;
-      }
-
-      a.underline {
-        text-decoration: underline;
-        text-underline-offset: 0.35em;
-      }
-
-      @media screen and (max-width: 959px) {
-        .iframe_wrapper iframe {
-          width: 90%;
-        }
-      }
-
-      @media screen and (max-width: 480px) {
-        .iframe_wrapper iframe {
-          width: 90%;
-        }
-      }
-
-    </style>
   </head>
   <body>
+    <header>
+      <div id='logo'>&nbsp;SLOTET</div>
+    </header>
+    
     <div id="page_wrapper">
-
-      <div id='top_section' class="">
-        <div id='logo'>&nbsp;SLOTET</div>
-      </div>
 
       <div id='section_top' class="page_sections">
         <p class='section_title'>ABOUT</p>
@@ -139,13 +30,13 @@
 
       <div id='section_content' class="page_sections">
         <p class='section_title'>PROJECTS</p>
-        <p><a href="https://slotet.itch.io/the-hollow-men"><img src="assets/img/index/thehollowmen.png" width="500"></a></p>
+        <p><a href="https://slotet.itch.io/the-hollow-men"><img src="assets/img/index/thehollowmen.png"></a></p>
         </div>
       </div>
 
       <div id='section_content' class="page_sections">
         <p class='section_title'>IN DEVELOPMENT</p>
-        <p><img src="assets/img/index/20231010.png" width="500"></p>
+        <p><img src="assets/img/index/20231010.png"></p>
         <a href='https://forum.defold.com/t/untitled-2d-hand-drawn-atmospheric-rpg/73759' class='underline'>devlog</a>
       </div>
 
@@ -159,7 +50,7 @@
       </div>
 
       <div id='page_footer' class="page_sections">
-        <p class='description'>&copy; 2023 Copyright Slotet. All Rights Reserved.</p>
+        <p class='description' id="copyright">&copy; 2023 Copyright Slotet. All Rights Reserved.</p>
       </div>
 
     </div>
