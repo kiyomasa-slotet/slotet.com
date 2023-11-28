@@ -33,14 +33,9 @@ header {
   flex-direction: column;
 }
 
-#logo {
-  color: white;
-  font-size: 3.5vw;
-  letter-spacing: 0.35em;
-  font-family: "Arial Black";
-  font-weight: 900;
-  user-select: none;
-  transform: scale(1, 1.1);
+#logo img{
+  width: 500px;
+  max-width: 25vw;
 }
 
 .page_sections {
@@ -111,16 +106,15 @@ a.underline {
   .iframe_wrapper iframe {
     width: 90%;
   }
-  #logo {
-    font-size: 6vw;
-  }
-  
 }
 
 @media screen and (max-width: 480px) {
   header {
     height: calc(100vh * 0.5);
     margin-bottom: 0.3vh;
+  }
+  #logo img{
+    max-width: 33vw;
   }
   .page_sections {
     padding-top: 2.5em;
