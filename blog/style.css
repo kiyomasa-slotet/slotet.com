@@ -43,7 +43,7 @@ img.photos {
 }
 
 .posts {
-	padding-bottom: 10vh;
+	padding-bottom: 6vh;
 }
 
 @media screen and (max-width: 959px) {
@@ -54,8 +54,7 @@ img.photos {
 
 @media screen and (max-width: 480px) {
   header {
-    height: calc(100vh * 0.5);
-    margin-bottom: 0.3vh;
+    
   }
   #logo img{
     max-width: 33vw;
