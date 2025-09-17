@@ -146,10 +146,12 @@ a.underline {
 
 .grid_itemA {grid-area: a;}
 .grid_itemB {grid-area: b;}
-.grid_itemC {grid-area: c; padding-bottom: 1em;}
-.grid_itemD {grid-area: d; padding-bottom: 1em;}
-.grid_itemE {grid-area: e; padding-top: 0em;}
-.grid_itemF {grid-area: f; padding-top: 0em;}
+.grid_itemC {grid-area: c;}
+.grid_itemD {grid-area: d;}
+.grid_itemE {grid-area: e; padding-bottom: 1em;}
+.grid_itemF {grid-area: f; padding-bottom: 1em;}
+.grid_itemG {grid-area: g; padding-bottom: 1em;}
+.grid_itemH {grid-area: h; padding-bottom: 1em;}
 
 .team {
   display: grid;
@@ -159,8 +161,9 @@ a.underline {
   padding: 0px;
   grid-template-areas:
     "a b"
+    "e f"
     "c d"
-    "e f";
+    "g h";
   justify-items: center;
   column-gap: 0px;
   row-gap: 0px; 
