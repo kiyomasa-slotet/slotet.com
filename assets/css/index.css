@@ -213,18 +213,17 @@ a.underline {
     grid-template-rows: auto;
     grid-template-areas:
     "a"
-    "c"
     "e"
     "b"
+    "f"
+    "c"
+    "g"
     "d"
-    "f";
+    "h";
     align-items: center;
   }
 
-  .grid_itemC {grid-area: c; padding-bottom: 0px;}}
-  .grid_itemD {grid-area: d; padding-bottom: 0px;}
-  .grid_itemE {width: 80%; margin-bottom: 2em;}
-  .grid_itemF {width: 80%; padding-top: 0px;}
+  
 
   .team p {
     margin-block-start: 0.5em;
