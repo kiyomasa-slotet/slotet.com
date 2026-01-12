@@ -156,50 +156,6 @@ a.underline {
   }
 }
 
-@media screen and (max-width: 480px) {
-  header {
-    height: calc(100vh * 0.5);
-    margin-bottom: 0.3vh;
-  }
-
-  #logo img{
-    max-width: 33vw;
-  }
-
-  .page_sections {
-    padding-top: 2.5em;
-  }
-
-  p.description {
-    width: 85%;
-  }
-
-  .team {
-    width: 100%;
-    grid-template-columns: repeat(1, minmax(250px, 1fr));
-    grid-template-rows: auto;
-    grid-template-areas:
-    "a"
-    "e"
-    "b"
-    "f"
-    "c"
-    "g"
-    "d"
-    "h";
-    align-items: center;
-  }
-
-  .team p {
-    margin-block-start: 0.5em;
-    margin-block-end: 0.0em;
-  }
-
-  p#copyright {
-    font-size: 13px;
-  }
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin: 20px 0 10px;
   padding: 0;
@@ -212,5 +168,59 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
   font-size: 20px;
   font-weight: 200;
+}
 
+@media screen and (max-width: 480px) {
+
+  .head_nav_contentBox {
+    flex-wrap: wrap;
+  }
+
+  .head_nav ul{
+    flex-wrap: wrap;
+  }
+
+  .head_nav_contentBox {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.head_nav ul {
+  display: flex;
+  position: relative;
+  padding-left:0px
+
+
+}
+
+.head_nav li{
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.head_nav a{
+  font-family: 'arial black', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  color: #333;
+}
+
+  .page_sections {
+    padding-top: 2.5em;
+  }
+
+  p.description {
+    width: 85%;
+  }
+
+
+  p#copyright {
+    font-size: 13px;
+  }
 }
