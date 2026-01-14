@@ -51,8 +51,9 @@ img.thumb {
   max-width: 500px;
 }
 
-#head_logo {
-  
+img {
+  max-width: 80%;
+  max-height: 400px;
 }
 
 #page_wrapper {
@@ -129,7 +130,7 @@ a:hover{
 }
 
 #section_social_icons {
-  margin-top: 2vh;
+  margin-top: 4rem;
 }
 
 .iframe_wrapper {
@@ -173,6 +174,8 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
   font-size: 20px;
   font-weight: 200;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 
