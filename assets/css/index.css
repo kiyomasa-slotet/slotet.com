@@ -231,6 +231,26 @@ a.underline {
     margin-bottom: 0.3vh;
   }
 
+  .head_nav_contentBox {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  }
+
+  .head_nav ul {
+    padding-left:0px
+  }
+
+  .head_nav a{
+    font-family: "Helvetica";
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+  }
+
   #logo img{
     max-width: 33vw;
   }

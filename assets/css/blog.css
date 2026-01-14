@@ -186,13 +186,18 @@ h3 {
   }
 
   .head_nav_contentBox {
-  width: 100%;
+  max-width: 80%;
   align-items: center;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+  }
+
+  #head_logo {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .head_nav ul {
