@@ -178,6 +178,9 @@ h3 {
 
 
 @media screen and (max-width: 480px) {
+  .head_nav {
+    text-align: center;
+  }
   .head_nav_contentBox {
     flex-wrap: wrap;
   }
@@ -187,7 +190,7 @@ h3 {
   }
 
   .head_nav_contentBox {
-  max-width: 80%;
+  width: 100%;
   align-items: center;
   margin: 0 auto;
   display: flex;
@@ -199,15 +202,19 @@ h3 {
   #head_logo {
     margin-right: 10px;
     margin-left: 10px;
+    width: 100%;
   }
 
   .head_nav ul {
     display: flex;
     position: relative;
-    padding-left:0px
+    padding-left:0px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
   }
 
   .head_nav li{
+    width: 33%;
     list-style: none;
   }
 
