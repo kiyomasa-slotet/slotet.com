@@ -46,14 +46,9 @@ body {
   color: #333;
 }
 
-img.thumb {
-  width: 90%;
-  max-width: 500px;
-}
-
 img {
-  max-width: 80%;
-  max-height: 400px;
+  width: 100%;
+  height: auto;
 }
 
 #page_wrapper {
@@ -97,6 +92,7 @@ video {
 
 p {
   font-family: 'Anek Telugu', sans-serif;
+  font-size: 18px;
 }
 
 .section_title {
@@ -172,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
   font-size: 20px;
   font-weight: 200;
-  padding-top: 1.5rem;
+  padding-top: 2.0rem;
   padding-bottom: 0.5rem;
 }
 
