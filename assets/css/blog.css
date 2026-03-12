@@ -176,6 +176,7 @@ h3 {
 @media screen and (max-width: 480px) {
   .head_nav {
     text-align: center;
+    width: 100%;
   }
   .head_nav_contentBox {
     flex-wrap: wrap;
@@ -203,14 +204,12 @@ h3 {
     padding-left:0px;
     flex-wrap: nowrap;
     white-space: nowrap;
-    width: 100%;
+    width: 90%;
     text-align: center;
-    margin-left: 13%;
-    margin-right: 13%;
   }
 
   .head_nav li{
-    width: 33%;
+    width: 33.3%;
     list-style: none;
   }
 

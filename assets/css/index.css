@@ -247,14 +247,12 @@ a.underline {
     padding-left:0px;
     flex-wrap: nowrap;
     white-space: nowrap;
-    width: 100%;
+    width: 90%;
     text-align: center;
-    margin-left: 13%;
-    margin-right: 13%;
   }
 
   .head_nav li{
-    width: 33%;
+    width: 33.3%;
     list-style: none;
   }
 
