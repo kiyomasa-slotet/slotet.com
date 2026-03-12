@@ -242,7 +242,20 @@ a.underline {
   }
 
   .head_nav ul {
-    padding-left:0px
+    display: flex;
+    position: relative;
+    padding-left:0px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .head_nav li{
+    width: 33%;
+    list-style: none;
   }
 
   .head_nav a{
